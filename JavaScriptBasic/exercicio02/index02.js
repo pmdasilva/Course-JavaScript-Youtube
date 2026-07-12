@@ -71,22 +71,22 @@ function orderTotal(){
 }
 
 // -2f. Finish: after finishing 2i remove the tosater from your cart.
-//function totalAmazonWithoutTax(){
+function totalAmazonWithoutTax(){
 //    const somaTotalSemTaxa = checkoutAmazon.basketball + checkoutAmazon.tshirt
 //    return somaTotalSemTaxa.toFixed(2)
-
+}
 
 // 2j. Let's say we want to always round a number down (2.8 => 2) Using Google or an A.I tool, search for the code to this.
-//const number1 = 2.8
-//console.log(Math.floor(number1))
+const number1 = 2.8
+console.log(Math.floor(number1))
 // - 2k. Let's always round a number up (2.3 => 3). Search how to do this.
-//const number2 = 2.3
-//console.log(Math.ceil(number2))
+const number2 = 2.3
+console.log(Math.ceil(number2))
 
-//console.log(totalAmazonWithoutTax())
-//console.log(calculateTax())
 //console.log(orderTotal())
 //console.log(valorTotalConta())
+//console.log(calculateTax())
+//console.log(totalAmazonWithoutTax())
 //console.log(contaDividaEmTresPessoas())
 //console.log(somaTotalToaster())
 //console.log(taxTenPercent())
