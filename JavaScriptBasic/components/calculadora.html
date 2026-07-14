@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charllange - Calculadora</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+<body>
+    <div id="calculadora">
+        <div class="display"    >
+        <button onclick="numero('7')">7</button>
+        <button onclick="numero('8')">8</button>
+        <button onclick="numero('9')">9</button>
+        <button onclick="subtrair('-')">-</button>
+    </div>
+    <div class="display">
+        <button onclick="numero('4')">4</button>
+        <button onclick="numero('5')">5</button>
+        <button onclick="numero('6')">6</button>
+        <button onclick="multiplicar('*')">*</button>
+    </div>
+    <div class="display">
+        <button onclick="numero('1')">1</button>
+        <button onclick="numero('2')">2</button>
+        <button onclick="numero('3')">3</button>
+        <button class="igual" onclick="igual()">=</button>
+    </div>
+    
+    <div class="display">
+        <button onclick="numero('0')">0</button>
+        <button onclick="dividir('/')">/</button>
+        <button onclick="somar('+')">+</button>
+        <button class="limpar" onclick="limpar()">C</button>
+    </div>
+    </div>
+</body>
+<script src="./calculadora.js"></script>
+</html>
