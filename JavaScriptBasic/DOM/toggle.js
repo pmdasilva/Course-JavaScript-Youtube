@@ -26,3 +26,10 @@ function toggle(){
     }
     
 }
+
+
+const lista = document.querySelectorAll('.lista');
+
+lista.forEach((items) => {
+    items.classList.add('lista')
+});
