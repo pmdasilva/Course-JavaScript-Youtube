@@ -1,0 +1,12 @@
+/* O estado inicial da lista: invisível e transparente */
+.conteudo-header {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease; /* Aqui está a mágica do tempo! */
+}
+
+.conteudo-header.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease;
+}
